@@ -1,0 +1,77 @@
+body.light-mode {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #f8f9fa;
+}
+
+.navbar-custom {
+    padding: 15px 0;
+    transition: all 0.3s ease;
+}
+
+body.light-mode .navbar-custom {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode .navbar-custom {
+    background-color: rgba(40, 40, 40, 0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #00CED1;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+body.light-mode .navbar-nav .nav-link {
+    color: #333;
+}
+
+body.dark-mode .navbar-nav .nav-link {
+    color: #f0f0f0;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00CED1;
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #00CED1;
+}
+
+body:not(.dark-mode) .navbar-custom .navbar-nav .nav-link,
+body:not(.dark-mode) .sidebar .nav-link {
+    color: #333 !important;
+}
+
+body:not(.dark-mode) .navbar-custom .navbar-nav .nav-link:hover,
+body:not(.dark-mode) .sidebar .nav-link:hover {
+    color: #00CED1 !important;
+}
+
+body.light-mode .quotes-section {
+    background-color: #ffffff;
+}
+
+body.dark-mode .quotes-section {
+    background-color: #333333;
+}
+

@@ -1,0 +1,2 @@
+    $apiKey = 'AIzaSyCJriAbw8YE2moaQzqGvCGkw713dRBn6Qc';
+    $searchEngineId = 'b116ad0f5ff6449b4';

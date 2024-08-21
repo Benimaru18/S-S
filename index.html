@@ -1,0 +1,693 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>S&S</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">S&S</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#" data-bs-toggle="modal"
+                            data-bs-target="#contactUsModal">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" data-bs-toggle="modal"
+                            data-bs-target="#aboutUsModal">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" id="theme-toggle"><ion-icon
+                                name="moon-outline"></ion-icon></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="container">
+            <div class="welcome-box">
+                <h1 class="welcome-title">Welcome to S&S: Empowering Student and Staff Well-Being</h1>
+                <p class="welcome-lead">Embark on a journey to enhance your mental health and academic success.</p>
+                <div class="row mt-4">
+                    <div class="col-lg-8">
+                        <div class="welcome-content">
+                            <p class="welcome-description">At S&S, we believe that every student and staff member
+                                deserves access to tools and resources that support their mental well-being. Our
+                                platform is designed to empower you with daily inspiration, progress tracking, and a
+                                supportive community tailored to the unique challenges of academic life.</p>
+                            <h4 class="mt-4 feature-title">What we offer:</h4>
+                            <ul class="feature-list">
+                                <li><ion-icon name="checkmark-circle-outline"></ion-icon> Daily motivational quotes to
+                                    boost your academic spirit</li>
+                                <li><ion-icon name="trending-up-outline"></ion-icon> Interactive well-being score
+                                    tracker for students and staff</li>
+                                <li><ion-icon name="people-outline"></ion-icon> Access to a supportive community of
+                                    peers and mentors</li>
+                                <li><ion-icon name="book-outline"></ion-icon> Curated resources for balancing academic
+                                    and personal well-being</li>
+                                <li><ion-icon name="shield-checkmark-outline"></ion-icon> Confidential and secure
+                                    platform for your peace of mind</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="cta-card">
+                            <h5 class="cta-title">Start Your Well-Being Journey Today</h5>
+                            <p class="cta-text">Join thousands of students and staff who have improved their mental
+                                well-being with S&S.</p>
+                            <a href="register.html" class="btn btn-primary btn-lg btn-block cta-button">Sign Up Now</a>
+                            <a href="#services"
+                                class="btn btn-outline-secondary btn-lg btn-block mt-2 smooth-scroll cta-button-secondary">Explore
+                                Features</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="get-started-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Get Started in 3 Easy Steps</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3>Sign Up</h3>
+                        <p>Create your account and set up your profile</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3>Set Goals</h3>
+                        <p>Define your well-being objectives and milestones</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3>Track Progress</h3>
+                        <p>Use our tools to monitor and improve your well-being</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section p-5">
+        <div class="container text-center">
+            <h2 class="section-title">Empowering Your Mental Well-being Journey</h2>
+            <p class="section-subtitle">Discover our comprehensive suite of tools and resources designed to support and
+                enhance your mental health</p>
+            <div class="row mt-5">
+                <div class="col-md-4 mb-4">
+                    <div class="service-item">
+                        <ion-icon name="chatbubble-ellipses-outline" class="service-icon"></ion-icon>
+                        <h3>Daily Inspirational Quotes</h3>
+                        <p>Start your day with motivation and positivity through our curated daily quotes, carefully
+                            selected to uplift your spirits and encourage personal growth.</p>
+                        <a href="register.html" class="btn btn-outline-primary mt-3">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-item">
+                        <ion-icon name="analytics-outline" class="service-icon"></ion-icon>
+                        <h3>Well-being Score Tracker</h3>
+                        <p>Monitor and improve your mental health with our easy-to-use well-being score tracker. Gain
+                            insights into your emotional patterns and track your progress over time.</p>
+                        <a href="register.html" class="btn btn-outline-primary mt-3">Try It Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-item">
+                        <ion-icon name="heart-outline" class="service-icon"></ion-icon>
+                        <h3>Mental Health Support</h3>
+                        <p>Access professional resources and connect with a supportive community for your mental
+                            well-being journey. Find guidance, share experiences, and grow together.</p>
+                        <a href="register.html" class="btn btn-outline-primary mt-3">Join Community</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4 mb-4">
+                    <div class="service-item">
+                        <ion-icon name="book-outline" class="service-icon"></ion-icon>
+                        <h3>Educational Resources</h3>
+                        <p>Explore our extensive library of articles, videos, and workshops on various mental health
+                            topics, curated by experts in the field.</p>
+                        <a href="register.html" class="btn btn-outline-primary mt-3">Browse Library</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-item">
+                        <ion-icon name="calendar-outline" class="service-icon"></ion-icon>
+                        <h3>Personalized Goal Setting</h3>
+                        <p>Set and track personal mental health goals with our intuitive goal-setting tool, designed to
+                            help you achieve lasting positive changes.</p>
+                        <a href="register.html" class="btn btn-outline-primary mt-3">Set Goals</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-item">
+                        <ion-icon name="shield-checkmark-outline" class="service-icon"></ion-icon>
+                        <h3>Privacy and Security</h3>
+                        <p>Rest assured that your personal information and data are protected with our state-of-the-art
+                            security measures and strict privacy policies.</p>
+                        <a href="register.html" class="btn btn-outline-primary mt-3">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose-us py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Why Choose S&S</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <ion-icon name="shield-checkmark-outline"></ion-icon>
+                        <h3>Secure & Confidential</h3>
+                        <p>Your data is protected with state-of-the-art security measures</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <ion-icon name="people-outline"></ion-icon>
+                        <h3>Supportive Community</h3>
+                        <p>Connect with peers and mentors who understand your journey</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <ion-icon name="trending-up-outline"></ion-icon>
+                        <h3>Personalized Growth</h3>
+                        <p>Tailored resources and tracking for your unique well-being goals</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews-section p-5">
+        <div class="container">
+            <h2 class="text-center mb-5">What Our Users Say</h2>
+            <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="review-card">
+                            <img src="./images/user-1.png" alt="User 1" class="rounded-circle mb-3">
+                            <h5 class="review-name">Sarah Johnson</h5>
+                            <p class="review-text">"This app has transformed my life. I feel more in control of my
+                                mental health than ever before. The daily quotes and tracking features are incredibly
+                                helpful."</p>
+                            <div class="review-rating">
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star-half"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="review-card">
+                            <img src="./images/user-2.png" alt="User 2" class="rounded-circle mb-3">
+                            <h5 class="review-name">Michael Chen</h5>
+                            <p class="review-text">"The daily quotes and well-being tracker have become an essential
+                                part of my morning routine. It's helped me stay focused and positive throughout my
+                                academic journey."</p>
+                            <div class="review-rating">
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="review-card">
+                            <img src="./images/user-3.jpg" alt="User 3" class="rounded-circle mb-3">
+                            <h5 class="review-name">Emily Rodriguez</h5>
+                            <p class="review-text">"The community support here is amazing. I've never felt so understood
+                                and supported. It's made a significant difference in my academic performance and overall
+                                well-being."</p>
+                            <div class="review-rating">
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="review-card">
+                            <img src="./images/user-4.jpg" alt="User 4" class="rounded-circle mb-3">
+                            <h5 class="review-name">Alex Thompson</h5>
+                            <p class="review-text">"S&S has been a game-changer for my mental health. The well-being
+                                score tracker helps me stay accountable, and the community support is invaluable. Highly
+                                recommend!"</p>
+                            <div class="review-rating">
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="review-card">
+                            <img src="./images/user-5.jpg" alt="User 5" class="rounded-circle mb-3">
+                            <h5 class="review-name">Olivia Martinez</h5>
+                            <p class="review-text">"As a staff member, I've found the resources on S&S incredibly
+                                helpful. The daily quotes and educational materials have improved my work-life balance
+                                significantly."</p>
+                            <div class="review-rating">
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star-half"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="review-card">
+                            <img src="./images/user-6.jpg" alt="User 6" class="rounded-circle mb-3">
+                            <h5 class="review-name">David Lee</h5>
+                            <p class="review-text">"The personalized goal setting feature on S&S has helped me achieve
+                                better academic results while maintaining my mental health. It's an essential tool for
+                                any student!"</p>
+                            <div class="review-rating">
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="wellbeing-section p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Track Your Well-being Journey</h2>
+                    <p class="lead">Visualize your mental health progress over time with our interactive well-being
+                        score tracker.</p>
+                    <p>Our intuitive chart helps you monitor your emotional state, identify patterns, and celebrate
+                        improvements. By regularly updating your score, you'll gain valuable insights into your mental
+                        health journey.</p>
+                    <button class="btn btn-primary mt-3" id="tryNowButton">Try Now</button>
+                </div>
+                <div class="col-md-6">
+                    <div id="wellbeingChart" style="width: 100%; height: 400px;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tip-of-the-day-section">
+        <div class="container">
+            <div class="tip-of-the-day-container">
+                <h2 class="section-title">Daily Dose of Wisdom</h2>
+                <p class="tip-intro">Empower your day with our carefully curated tips for mental well-being and academic
+                    success.</p>
+                <div class="tip-of-the-day">
+                    <h3>Today's Tip for Success</h3>
+                    <p id="dailyTip">"Practice mindfulness for 5 minutes each day. Focus on your breath and observe your
+                        thoughts without judgment to reduce stress and improve concentration."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="quotes-section p-5">
+        <div class="container">
+            <div class="quote-content text-center">
+                <h2 class="section-title">Daily Inspiration for Your Journey</h2>
+                <p class="section-subtitle">Start each day with a fresh perspective and motivation</p>
+                <div class="quote-teaser">
+                    <blockquote class="quote-text">
+                        <p>"The greatest glory in living lies not in never falling, but in rising every time we fall."
+                        </p>
+                        <footer class="quote-author">- Nelson Mandela</footer>
+                    </blockquote>
+                </div>
+                <p class="mt-4">Our curated collection of inspirational quotes is designed to uplift your spirits,
+                    challenge your thinking, and provide daily motivation for your academic and personal growth.</p>
+                <a href="register.html" class="btn btn-primary mt-4">Explore More Quotes</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="live-counter">
+        <h3>S&S Community Impact</h3>
+        <div class="counter-item">
+            <span id="userCount">10,000+</span>
+            <p>Active Users</p>
+        </div>
+        <div class="counter-item">
+            <span id="positiveImpacts">50,000+</span>
+            <p>Positive Impacts</p>
+        </div>
+    </div>
+
+    <!-- Contact Us Modal -->
+    <div class="modal fade" id="contactUsModal" tabindex="-1" aria-labelledby="contactUsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactUsModalLabel">Contact Us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>Get in Touch</h6>
+                            <form id="contactForm">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" id="contactName" name="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" id="contactEmail" name="email" placeholder="Your Email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control" id="contactMessage" name="message" rows="4" placeholder="Your Message" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                            
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Contact Information</h6>
+                            <p><ion-icon name="mail-outline"></ion-icon> Email: info@sandswellbeing.com</p>
+                            <p><ion-icon name="call-outline"></ion-icon> Phone: (01) 537243</p>
+                            <p><ion-icon name="location-outline"></ion-icon> Address: 123 Wellness Street, Cityville</p>
+                            <h6 class="mt-4">Connect With Us</h6>
+                            <ul class="social-links list-inline">
+                                <li class="list-inline-item"><a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                                </li>
+                                <li class="list-inline-item"><a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                                </li>
+                                <li class="list-inline-item"><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                </li>
+                                <li class="list-inline-item"><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Us Modal -->
+    <div class="modal fade" id="aboutUsModal" tabindex="-1" aria-labelledby="aboutUsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="aboutUsModalLabel">About S&S Well-Being</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Our Mission</h6>
+                    <p>At S&S Well-Being, we are dedicated to empowering students and staff with the tools and resources
+                        they need to prioritize their mental health and achieve academic success.</p>
+
+                    <h6>Our Story</h6>
+                    <p>Founded in 2020, S&S Well-Being was born out of a passion for improving mental health support in
+                        educational settings. Our team of mental health professionals and tech experts came together to
+                        create a platform that makes well-being accessible to all.</p>
+
+                    <h6>Our Approach</h6>
+                    <p>We combine cutting-edge technology with evidence-based mental health practices to provide a
+                        comprehensive well-being solution. Our platform offers daily inspiration, progress tracking, and
+                        a supportive community tailored to the unique challenges of academic life.</p>
+
+                    <h6>Our Team</h6>
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="./images/team-1.png" alt="Team Member 1" class="rounded-circle mb-2"
+                                style="width: 100px; height: 100px;">
+                            <h6>Dr. Emily Chen</h6>
+                            <p>Founder & CEO</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="./images/team-2.jpg" alt="Team Member 2" class="rounded-circle mb-2"
+                                style="width: 100px; height: 100px;">
+                            <h6>Mark Thompson</h6>
+                            <p>Head of Technology</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="./images/team-3.jpg" alt="Team Member 3" class="rounded-circle mb-2"
+                                style="width: 100px; height: 100px;">
+                            <h6>Dr. Sarah Patel</h6>
+                            <p>Lead Mental Health Expert</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>S&S Well-Being<sup>®</sup></h3>
+                </div>
+                <div class="col-md-4">
+                    <h4>Contact Us</h4>
+                    <p>Email: info@sandswellbeing.com</p>
+                    <p>Phone: (01) 537243</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Follow Us</h4>
+                    <ul class="social-links list-inline">
+                        <li class="list-inline-item"><a href="https://www.facebook.com/"><ion-icon
+                                    name="logo-facebook"></ion-icon></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/"><ion-icon
+                                    name="logo-instagram"></ion-icon></a></li>
+                        <li class="list-inline-item"><a href="https://mm.linkedin.com/"><ion-icon
+                                    name="logo-linkedin"></ion-icon></a></li>
+                        <li class="list-inline-item"><a href="https://www.whatsapp.com/"><ion-icon
+                                    name="logo-whatsapp"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2024 S&S Well-Being. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top"><ion-icon name="arrow-up-outline"></ion-icon></button>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const themeToggle = document.getElementById('theme-toggle');
+            const body = document.body;
+
+            function toggleTheme() {
+                body.classList.toggle('dark-mode');
+                body.classList.toggle('light-mode');
+                updateThemeToggleIcon();
+                localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark-mode' : 'light-mode');
+            }
+
+            function updateThemeToggleIcon() {
+                const iconName = body.classList.contains('dark-mode') ? 'sunny-outline' : 'moon-outline';
+                themeToggle.querySelector('ion-icon').setAttribute('name', iconName);
+            }
+
+            themeToggle.addEventListener('click', toggleTheme);
+
+            // Apply saved theme on page load
+            const savedTheme = localStorage.getItem('theme') || 'light-mode';
+            body.classList.add(savedTheme);
+            updateThemeToggleIcon();
+        });
+
+        document.querySelectorAll('.smooth-scroll').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        google.charts.load('current', { 'packages': ['corechart'] });
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Date', 'Well-being Score'],
+                ['2023-01-01', 7],
+                ['2023-02-01', 6],
+                ['2023-03-01', 8],
+                ['2023-04-01', 7],
+                ['2023-05-01', 9]
+            ]);
+
+            var isDarkMode = document.body.classList.contains('dark-mode');
+            var textColor = isDarkMode ? '#f0f0f0' : '#333';
+            var gridlineColor = isDarkMode ? '#555' : '#ccc';
+
+            function updateChartColors() {
+                var textColor = document.body.classList.contains('dark-mode') ? '#f0f0f0' : '#333';
+                options.legend.textStyle.color = textColor;
+                options.titleTextStyle.color = textColor;
+                options.hAxis.textStyle.color = textColor;
+                options.vAxis.textStyle.color = textColor;
+                chart.draw(data, options);
+            }
+
+            var options = {
+                title: 'Your Well-being Score Over Time',
+                curveType: 'function',
+                legend: { position: 'bottom', textStyle: { color: textColor, fontSize: 14 } },
+                colors: ['#00CED1'],
+                backgroundColor: { fill: 'transparent' },
+                titleTextStyle: { color: textColor, fontSize: 18, bold: true },
+                hAxis: { textStyle: { color: textColor, fontSize: 12 }, gridlines: { color: gridlineColor } },
+                vAxis: { textStyle: { color: textColor, fontSize: 12 }, gridlines: { color: gridlineColor } },
+                chartArea: { width: '80%', height: '70%' },
+                tooltip: { isHtml: true },
+                focusTarget: 'category',
+                chartArea: {
+                    left: '10%',
+                    right: '5%',
+                    top: '10%',
+                    bottom: '15%',
+                    width: '100%',
+                    height: '100%'
+                },
+                legend: {
+                    position: 'bottom'
+                },
+                vAxis: {
+                    viewWindow: {
+                        min: 0,
+                        max: 10
+                    }
+                },
+                responsive: true
+            };
+
+            var chart = new google.visualization.LineChart(document.getElementById('wellbeingChart'));
+            chart.draw(data, options);
+        }
+
+        document.getElementById('tryNowButton').addEventListener('click', function () {
+            window.location.href = 'register.html';
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var backToTopButton = document.getElementById('backToTop');
+
+            window.addEventListener('scroll', function () {
+                if (window.pageYOffset > 300) {
+                    backToTopButton.style.display = 'block';
+                } else {
+                    backToTopButton.style.display = 'none';
+                }
+            });
+
+            backToTopButton.addEventListener('click', function () {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+
+        window.addEventListener('scroll', function() {
+            var backToTopButton = document.getElementById('backToTop');
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('visible');
+            } else {
+                backToTopButton.classList.remove('visible');
+            }
+        });        
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var reviewCarousel = new bootstrap.Carousel(document.getElementById('reviewCarousel'), {
+                interval: 5000,
+                ride: 'carousel'
+            });
+        });
+
+        window.addEventListener('resize', function () {
+            drawChart();
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('contactForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                const formData = new FormData(this);
+                fetch('contact.php', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => {
+                    console.log(response);
+                    return response.json();
+                })
+                .then(data => {
+                    console.log(data);
+                    if (data.success) {
+                        alert('Thank you for your message. We will get back to you soon!');
+                        this.reset();
+                    } else {
+                        alert('An error occurred: ' + data.message);
+                    }
+                })                
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('An error occurred. Please try again later.');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

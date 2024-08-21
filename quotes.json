@@ -1,0 +1,480 @@
+{
+    "quotes": [
+        {
+            "quote": "You are braver than you believe, stronger than you seem and smarter than you think.",
+            "author": "A.A Milne"
+        },
+        {
+            "quote": "The best way to predict your future is to create it.",
+            "author": "Abraham Lincoln"
+        },
+        {
+            "quote": "A person who never made a mistake never tried anything new.",
+            "author": "Albert Einstein"
+        },
+        {
+            "quote": "Learn from yesterday. Live for today. Hope for tomorrow.",
+            "author": "Albert Einstein"
+        },
+        {
+            "quote": "Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will spend its whole life believing that it is stupid.",
+            "author": "Albert Einstein"
+        },
+        {
+            "quote": "When one door closes, another opens; but we often look so long and so regretfully upon the closed door that we do not see the one which has opened for us.",
+            "author": "Alexander Graham Bell"
+        },
+        {
+            "quote": "To accomplish great things, we must not only act, but also dream, not only plan, but also believe.",
+            "author": "Anatole France"
+        },
+        {
+            "quote": "How wonderful it is that nobody need wait a single moment before starting to improve the world.",
+            "author": "Anne Frank"
+        },
+        {
+            "quote": "Wisdom... comes not from age, but from education and learning.",
+            "author": "Anton Chekhov"
+        },
+        {
+            "quote": "We need to accept that we won’t always make the right decisions, that we’ll screw up royally sometimes – understanding that failure is not the opposite of success, it’s part of success.",
+            "author": "Ariana Huffington"
+        },
+        {
+            "quote": "Quality is not an act, it is a habit.",
+            "author": "Aristotle"
+        },
+        {
+            "quote": "I can’t tell you how many times I’ve been given a no. Only to find that a better, brighter, bigger yes was right around the corner.",
+            "author": "Arlan Hamilton"
+        },
+        {
+            "quote": "Start where you are. Use what you have. Do what you can.",
+            "author": "Arthur Ashe"
+        },
+        {
+            "quote": "The beautiful thing about learning is that nobody can take it away from you.",
+            "author": "B.B. King"
+        },
+        {
+            "quote": "Education is the most powerful weapon you can use to change the world.",
+            "author": "B.B. King"
+        },
+        {
+            "quote": "Never let the fear of striking out stop you from playing the game.",
+            "author": "Babe Ruth"
+        },
+        {
+            "quote": "Do not make your goal to be the best. Best is a label. It’s something someone else decides for you. ‘Better’ is more personal.",
+            "author": "Baryshnikov"
+        },
+        {
+            "quote": "There are no shortcuts to any place worth going.",
+            "author": "Beverly Stills"
+        },
+        {
+            "quote": "The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice.",
+            "author": "Brian Herbert"
+        },
+        {
+            "quote": "Life itself is your teacher, and you are in a state of constant learning.",
+            "author": "Bruce Lee"
+        },
+        {
+            "quote": "The problem is not the problem. The problem is your attitude about the problem. Do you understand?",
+            "author": "Captain Jack Sparrow"
+        },
+        {
+            "quote": "You can’t have a better tomorrow if you’re still thinking about yesterday.",
+            "author": "Charles F. Kettering"
+        },
+        {
+            "quote": "Teachers can open the door, but you must enter it yourself.",
+            "author": "Chinese proverb"
+        },
+        {
+            "quote": "He who asks a question is a fool for five minutes; he who does not ask a question remains a fool forever.",
+            "author": "Chinese proverb"
+        },
+        {
+            "quote": "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
+            "author": "Christian D. Larson"
+        },
+        {
+            "quote": "Self-compassion is simply giving the same kindness to ourselves that we would give to others.",
+            "author": "Christopher Germer"
+        },
+        {
+            "quote": "Procrastination is like a credit card: it’s a lot of fun until you get the bill.",
+            "author": "Christopher Parker"
+        },
+        {
+            "quote": "The man who moves a mountain begins by carrying away small stones.",
+            "author": "Confucius"
+        },
+        {
+            "quote": "Learning without thinking is useless. Think without learning, dangerous.",
+            "author": "Confucius"
+        },
+        {
+            "quote": "To be an overachiever you have to be an over-believer.",
+            "author": "Dabo Swinney"
+        },
+        {
+            "quote": "Just one small positive thought in the morning can change your whole day.",
+            "author": "Dalai Lama"
+        },
+        {
+            "quote": "Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no help at all.",
+            "author": "Dale Carnegie"
+        },
+        {
+            "quote": "Striving for success without hard work is like trying to harvest where you haven’t planted.",
+            "author": "David Bly"
+        },
+        {
+            "quote": "A successful man is one who can lay a firm foundation with the bricks others have thrown at him.",
+            "author": "David Brinkley"
+        },
+        {
+            "quote": "The reading of all good books is like conversation with the finest (people) of the past centuries.",
+            "author": "Descartes"
+        },
+        {
+            "quote": "Procrastination is the art of keeping up with yesterday.",
+            "author": "Don Marquis"
+        },
+        {
+            "quote": "The more that you read, the more things you will know, the more that you learn, the more places you’ll go.",
+            "author": "Dr. Seuss"
+        },
+        {
+            "quote": "It takes courage to grow up and become who you really are.",
+            "author": "E.E. Cummings"
+        },
+        {
+            "quote": "You don’t drown by falling in the water; you drown by staying there.",
+            "author": "Ed Cole"
+        },
+        {
+            "quote": "It is not the mountain we conquer, but ourselves.",
+            "author": "Edmund Hillary"
+        },
+        {
+            "quote": "Procrastination is the thief of time.",
+            "author": "Edward Young"
+        },
+        {
+            "quote": "The future belongs to those who believe in the beauty of their dreams.",
+            "author": "Eleanor Roosevelt"
+        },
+        {
+            "quote": "I think it’s possible for ordinary people to choose to be extraordinary.",
+            "author": "Elon Musk"
+        },
+        {
+            "quote": "Instruction ends in the schoolroom, but education ends only with life.",
+            "author": "Frederick W. Robertson"
+        },
+        {
+            "quote": "Every accomplishment starts with the decision to try.",
+            "author": "Gail Devers"
+        },
+        {
+            "quote": "I don’t measure a man’s success by how high he climbs, but how high he bounces when he hits the bottom.",
+            "author": "George S. Patton"
+        },
+        {
+            "quote": "Ninety-nine percent of the failures come from people who have the habit of making excuses.",
+            "author": "George Washington Carver"
+        },
+        {
+            "quote": "Don’t say you don’t have enough time. You have exactly the same number of hours per day that were given to Helen Keller, Pasteur, Michelangelo, Mother Teresea, Leonardo da Vinci, Thomas Jefferson, and Albert Einstein.",
+            "author": "H. Jackson Brown Jr."
+        },
+        {
+            "quote": "The expert in anything was once a beginner.",
+            "author": "Helen Hayes"
+        },
+        {
+            "quote": "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.",
+            "author": "Helen Keller"
+        },
+        {
+            "quote": "Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young.",
+            "author": "Henry Ford"
+        },
+        {
+            "quote": "Failure is the opportunity to begin again more intelligently.",
+            "author": "Henry Ford"
+        },
+        {
+            "quote": "The most successful people are those who are good at plan B.",
+            "author": "James Yorke"
+        },
+        {
+            "quote": "Fall seven times, stand up eight.",
+            "author": "Japanese Proverb"
+        },
+        {
+            "quote": "In a world where you can be anything, be kind.",
+            "author": "Jennifer Dukes Lee"
+        },
+        {
+            "quote": "That’s the thing about books. They let you travel without moving your feet.",
+            "author": "Jhumpa Lahiri"
+        },
+        {
+            "quote": "Reading is essential for those who seek to rise above the ordinary.",
+            "author": "Jim Rohn"
+        },
+        {
+            "quote": "Motivation is what gets you started. Habit is what keeps you going.",
+            "author": "Jim Ryun"
+        },
+        {
+            "quote": "There are two kinds of people in this world: those who want to get things done and those who don’t want to make mistakes.",
+            "author": "John Maxwell"
+        },
+        {
+            "quote": "Successful and unsuccessful people do not vary greatly in their abilities. They vary in their desires to reach their potential.",
+            "author": "John Maxwell"
+        },
+        {
+            "quote": "Patience and perseverance have a magical effect before which difficulties disappear and obstacles vanish.",
+            "author": "John Quincy Adams"
+        },
+        {
+            "quote": "Don’t let what you cannot do interfere with what you can do.",
+            "author": "John Wooden"
+        },
+        {
+            "quote": "Challenges are what make life interesting. Overcoming them is what makes life meaningful.",
+            "author": "Joshua J. Marine"
+        },
+        {
+            "quote": "Perseverance is failing 19 times and succeeding the 20th.",
+            "author": "Julie Andrews"
+        },
+        {
+            "quote": "Doubt kills more dreams than failure ever will.",
+            "author": "Karim Seddiki"
+        },
+        {
+            "quote": "None of us is as smart as all of us.",
+            "author": "Ken Blanchard"
+        },
+        {
+            "quote": "It had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. They went out and happened to things.",
+            "author": "Leonardo da Vinci"
+        },
+        {
+            "quote": "Learning is the only thing the mind never exhausts, never fears, and never regrets.",
+            "author": "Leonardo da Vinci"
+        },
+        {
+            "quote": "The road to success is always under construction.",
+            "author": "Lily Tomlin"
+        },
+        {
+            "quote": "Winners embrace hard work. They love the discipline of it, the trade-off they’re making to win. Losers, on the other hand, see it as punishment. And that’s the difference.",
+            "author": "Lou Holtz"
+        },
+        {
+            "quote": "I follow three rules: Do the right thing, do the best you can, and always show people you care.",
+            "author": "Lou Holtz"
+        },
+        {
+            "quote": "Self-discipline is self-caring.",
+            "author": "M. Scott Peck"
+        },
+        {
+            "quote": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+            "author": "Mahatma Gandhi"
+        },
+        {
+            "quote": "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
+            "author": "Malcolm X"
+        },
+        {
+            "quote": "Today a reader, tomorrow a leader.",
+            "author": "Margaret Fuller"
+        },
+        {
+            "quote": "The man who does not read books has no advantage over the one who cannot read them.",
+            "author": "Mark Twain"
+        },
+        {
+            "quote": "Your talents and abilities will improve over time, but for that you have to start.",
+            "author": "Martin Luther King"
+        },
+        {
+            "quote": "Courage doesn’t always roar. Sometimes courage is the quiet voice at the end of the day saying ‘I will try again tomorrow’.",
+            "author": "Mary Anne Radmacher"
+        },
+        {
+            "quote": "Optimism is a happiness magnet. If you stay positive, good things and good people will be drawn to you.",
+            "author": "Mary Lou Retton"
+        },
+        {
+            "quote": "Procrastination makes easy things hard and hard things harder.",
+            "author": "Mason Cooley"
+        },
+        {
+            "quote": "You can’t use up creativity. The more you use, the more you have.",
+            "author": "Maya Angelou"
+        },
+        {
+            "quote": "All progress takes place outside of your comfort zone.",
+            "author": "Michael John Bobak"
+        },
+        {
+            "quote": "I’ve failed over and over and over again in my life. And that is why I succeed.",
+            "author": "Michael Jordan"
+        },
+        {
+            "quote": "The man well prepared for the struggle has achieved half a triumph.",
+            "author": "Miguel de Cervantes"
+        },
+        {
+            "quote": "If opportunity doesn’t knock, build a door.",
+            "author": "Milton Berle"
+        },
+        {
+            "quote": "Go into the world and do well. But more importantly, go into the world and do good.",
+            "author": "Minor Myers Jur"
+        },
+        {
+            "quote": "Education is the most powerful weapon, which you can use to change the world.",
+            "author": "Nelson Mandela"
+        },
+        {
+            "quote": "It always seems impossible until it’s done.",
+            "author": "Nelson Mandela"
+        },
+        {
+            "quote": "If you don’t go after what you want, you’ll never have it. If you don’t ask, the answer is always no. If you don’t step forward, you’re always in the same place.",
+            "author": "Nora Roberts"
+        },
+        {
+            "quote": "Everything’s always ending. But everything’s always beginning, too.",
+            "author": "Patrick Ness"
+        },
+        {
+            "quote": "Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do.",
+            "author": "Pelé"
+        },
+        {
+            "quote": "The mind is not a vessel to be filled but a fire to be ignited.",
+            "author": "Plutarch"
+        },
+        {
+            "quote": "Education is something we have to keep pursuing day after day.",
+            "author": "Premier Brian Gallant"
+        },
+        {
+            "quote": "Success is the sum of small efforts, repeated.",
+            "author": "R. Collier"
+        },
+        {
+            "quote": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+            "author": "Ralph Waldo Emerson"
+        },
+        {
+            "quote": "Education is not to reform students or amuse them or to make them expert technicians. It is to unsettle their minds, widen their horizons, inflame their intellects, teach them to think straight, if possible.",
+            "author": "Robert M. Hutchins"
+        },
+        {
+            "quote": "A little progress each day adds up to big results.",
+            "author": "Satya Nani"
+        },
+        {
+            "quote": "Turning your passion into your job is easier than finding a job that matches your passion.",
+            "author": "Seth Godin"
+        },
+        {
+            "quote": "Your positive action combined with positive thinking results in success.",
+            "author": "Shiv Khera"
+        },
+        {
+            "quote": "Be patient with yourself. Self-growth is tender; it’s holy ground. There’s no greater investment.",
+            "author": "Stephen Covey"
+        },
+        {
+            "quote": "Work gives you meaning and purpose and life is empty without it.",
+            "author": "Stephen Hawking"
+        },
+        {
+            "quote": "Worry gives a small thing a big shadow.",
+            "author": "Swedish Proverb"
+        },
+        {
+            "quote": "The whole purpose of education is to turn mirrors into windows.",
+            "author": "Sydney J. Harris"
+        },
+        {
+            "quote": "Real difficulties can be overcome; it is only the imaginary ones that are unconquerable.",
+            "author": "Theodore N. Vail"
+        },
+        {
+            "quote": "Many of life’s failures are people who did not realize how close they were to success when they gave up.",
+            "author": "Thomas Edison"
+        },
+        {
+            "quote": "Genius is 10% inspiration, 90% perspiration.",
+            "author": "Thomas Edison"
+        },
+        {
+            "quote": "I find that the harder I work, the more luck I seem to have.",
+            "author": "Thomas Jefferson"
+        },
+        {
+            "quote": "Successful people begin where failures leave off. Never settle for ‘just getting the job done.’ Excel!",
+            "author": "Tom Hopkins"
+        },
+        {
+            "quote": "Skill is only developed by hours and hours of work.",
+            "author": "Usain Bolt"
+        },
+        {
+            "quote": "Just believe in yourself. Even if you don’t pretend that you do and, at some point, you will.",
+            "author": "Venus Williams"
+        },
+        {
+            "quote": "Procrastination is opportunity’s assassin.",
+            "author": "Victor Kiam"
+        },
+        {
+            "quote": "The only place where success comes before work is in the dictionary.",
+            "author": "Vidal Sassoon"
+        },
+        {
+            "quote": "Great things are done by a series of small things brought together.",
+            "author": "Vincent van Gogh"
+        },
+        {
+            "quote": "If you hear a voice within you say ‘you cannot paint,’ then by all means paint, and the voice will be silenced.",
+            "author": "Vincent van Gogh"
+        },
+        {
+            "quote": "The way to get started is to quit talking and begin doing.",
+            "author": "Walt Disney"
+        },
+        {
+            "quote": "Perseverance is not a long race; it is many short races one after the other.",
+            "author": "Walter Elliot"
+        },
+        {
+            "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+            "author": "Winston Churchill"
+        },
+        {
+            "quote": "A dream you dream alone is only a dream. A dream you dream together is reality.",
+            "author": "Yoko Ono"
+        },
+        {
+            "quote": "You don’t have to be great to start, but you have to start to be great.",
+            "author": "Zig Ziglar"
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+.theme-modal .modal-content {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.theme-modal .modal-header,
+.theme-modal .modal-footer {
+    border-color: var(--border-color);
+}
+
+.theme-modal .btn-close {
+    color: var(--text-color);
+}
+
+body.light-mode .theme-modal .modal-content {
+    background-color: #fff;
+    color: #333;
+}
+
+body.dark-mode .theme-modal .modal-content {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode .theme-modal .modal-header,
+body.dark-mode .theme-modal .modal-footer {
+    border-color: #555;
+}
+
+body.dark-mode .theme-modal .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.theme-modal .modal-body,
+.theme-modal .modal-title {
+    color: inherit;
+}
+
+
+.wellbeing-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .wellbeing-section {
+    background-color: #2a2a2a;
+}
+
+.wellbeing-section h2 {
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+body.dark-mode .wellbeing-section h2 {
+    color: #f0f0f0;
+}
+
+.wellbeing-section .lead {
+    color: #555;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+body.dark-mode .wellbeing-section .lead {
+    color: #bbb;
+}
+
+.wellbeing-section p {
+    color: #666;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+body.dark-mode .wellbeing-section p {
+    color: #aaa;
+}
+
+.wellbeing-section .btn-primary {
+    background-color: #00CED1;
+    border-color: #00CED1;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 12px 25px;
+    transition: all 0.3s ease;
+}
+
+.wellbeing-section .btn-primary:hover {
+    background-color: #00BFBF;
+    border-color: #00BFBF;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 206, 209, 0.3);
+}
+
+#wellbeingChart {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+body.dark-mode #wellbeingChart {
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .wellbeing-section {
+        padding: 60px 0;
+    }
+
+    .wellbeing-section h2 {
+        font-size: 2rem;
+    }
+
+    .wellbeing-section .lead {
+        font-size: 1.2rem;
+    }
+
+    #wellbeingChart {
+        height: 300px !important;
+        margin-top: 30px;
+    }
+}
+

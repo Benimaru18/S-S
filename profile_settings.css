@@ -1,0 +1,164 @@
+.settings-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode .settings-section {
+    background-color: #2a2a2a;
+}
+
+.settings-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+body.dark-mode .settings-title {
+    color: #f0f0f0;
+}
+
+.settings-subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+body.dark-mode .settings-subtitle {
+    color: #bbb;
+}
+
+.profile-card {
+    background-color: #f8f9fa;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+body.dark-mode .profile-card {
+    background-color: #2a2a2a;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.05);
+}
+
+.profile-image-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.profile-image-settings {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #00CED1;
+    transition: all 0.3s ease;
+}
+
+body.dark-mode .profile-image-settings {
+    border-color: #7ddfd2;
+}
+
+.profile-image-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #00CED1;
+    border-radius: 50%;
+    padding: 8px;
+    transition: all 0.3s ease;
+}
+
+body.dark-mode .profile-image-overlay {
+    background-color: #7ddfd2;
+}
+
+.image-upload-btn {
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+body.dark-mode .image-upload-btn {
+    color: #333;
+}
+
+.profile-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+body.dark-mode .profile-name {
+    color: #f0f0f0;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+body.dark-mode .form-label {
+    color: #bbb;
+}
+
+.form-control,
+.form-select {
+    border-color: #ced4da;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 10px 15px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #00CED1;
+    box-shadow: 0 0 0 0.2rem rgba(0, 206, 209, 0.25);
+}
+
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+    background-color: #333;
+    border-color: #555;
+    color: #f0f0f0;
+}
+
+body.dark-mode .form-control:focus,
+body.dark-mode .form-select:focus {
+    border-color: #7ddfd2;
+    box-shadow: 0 0 0 0.2rem rgba(125, 223, 210, 0.25);
+}
+
+.btn-primary {
+    background-color: #00CED1;
+    border-color: #00CED1;
+    transition: all 0.3s ease;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #00A9B5;
+    border-color: #00A9B5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 206, 209, 0.3);
+}
+
+body.dark-mode .btn-primary {
+    background-color: #7ddfd2;
+    border-color: #7ddfd2;
+    color: #333;
+}
+
+body.dark-mode .btn-primary:hover {
+    background-color: #5ECFC2;
+    border-color: #5ECFC2;
+    box-shadow: 0 4px 8px rgba(125, 223, 210, 0.3);
+}

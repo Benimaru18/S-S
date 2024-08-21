@@ -1,0 +1,164 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, var(--primary-cyan) 0%, var(--secondary-cyan) 100%);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 80%);
+    animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+}
+
+.form-box {
+    text-align: left;
+}
+
+.form-box h2 {
+    color: var(--primary-cyan);
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid var(--light-grey);
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: var(--primary-cyan);
+    box-shadow: 0 0 10px rgba(127, 255, 212, 0.3);
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btn-primary, .btn-secondary {
+    flex: 1;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #00CED1 !important;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #20B2AA !important;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 206, 209, 0.4);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid #00CED1;
+    color: #00CED1;
+}
+
+
+.dark-mode body {
+    background: linear-gradient(135deg, #2c3e50 0%, #1a2533 100%);
+}
+
+.dark-mode .form-container {
+    background-color: rgba(51, 51, 51, 0.95);
+    color: white;
+}
+
+.dark-mode .form-control {
+    background-color: #444;
+    border-color: #555;
+    color: white;
+}
+
+.dark-mode .btn-primary {
+    background-color: #00CED1;
+    color: #121212;
+}
+
+.dark-mode .btn-primary:hover {
+    background-color: #20B2AA;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group .form-control {
+    padding-right: 40px;
+}
+
+#togglePassword {
+    position: absolute;
+    right: 1px;
+    top: 30%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: var(--medium-grey);
+    cursor: pointer;
+}
+
+#togglePassword:focus {
+    outline: none;
+}
+
+#togglePassword ion-icon {
+    vertical-align: middle;
+}
+
+.mt-3 a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.mt-3 a:hover {
+    color: #ffffff;
+}

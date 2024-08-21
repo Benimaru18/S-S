@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton&family=Bebas+Neue&display=swap');
+
+.dashboard-container {
+    display: flex;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.search-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.search-results-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: none;
+}
+
+.search-result-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-result-item:hover {
+    background-color: #f0f0f0;
+}
+
+.quotes-section {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.quote-card {
+    font-family: 'Neuton', serif;
+    background-color: #33e6e6;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #808080;
+    border-left-width: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.quote-card blockquote {
+    position: static;
+    font-size: 24px;
+    line-height: 1.4;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+
+.quote-card blockquote::before,
+.quote-card blockquote::after {
+    position: absolute;
+}
+
+.quote-card blockquote::before {
+    content: '\201C';
+    font-size: 60px;
+    left: 20px;
+    top: 10px;
+    color: #808080;
+}
+
+.quote-card blockquote::after {
+    content: '\201D';
+    font-size: 60px;
+    right: 20px;
+    bottom: 40px;
+    color: #808080;
+}
+
+.quote-card blockquote p:last-child {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #555;
+}
+
+.quote-card blockquote p:last-child::before {
+    content: '— ';
+}
+
+.quote-nav-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; /* Increase this value to move buttons further down */
+    padding-top: 20px; /* Add some padding to separate from the quote */
+
+}
+
+.quote-nav-buttons button {
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 10px;
+}
+
+.quote-nav-buttons button:hover {
+    background-color: #333;
+}
+
+#previousQuotesContainer .quote-card {
+    position: relative;
+    padding-bottom: 60px; /* Increased to accommodate date */
+}
+
+#previousQuotesContainer .quote-date {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    font-size: 14px;
+    color: #777;
+}
+
+.previous-quotes-section {
+    margin-top: 40px;
+}
+
+.previous-quotes-section .quote-card {
+    margin-bottom: 20px;
+}
+
+.previous-quotes-section .quote-text {
+    font-size: 18px;
+}
+
+.previous-quotes-section .quote-author {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .dashboard-container {
+        flex-direction: column;
+    }
+
+    .quote-card {
+        padding: 20px;
+    }
+
+    .quote-card blockquote {
+        font-size: 20px;
+    }
+}
+
+body.dark-mode {
+    background-color: #222;
+    color: #f4f4f4;
+}
+
+body.dark-mode .quotes-section,
+body.dark-mode .search-results-dropdown {
+    background-color: #333;
+}
+
+body.dark-mode .search-input {
+    background-color: #444;
+    color: #f4f4f4;
+    border-color: #555;
+}
+
+body.dark-mode .search-icon {
+    color: #aaa;
+}
+
+body.dark-mode .quote-nav-buttons button {
+    background-color: #555;
+}
+
+body.dark-mode .quote-nav-buttons button:hover {
+    background-color: #666;
+}
+
+body.dark-mode .quote-card {
+    background-color: #33e6e6;
+    border-color: #a0a0a0;
+    color: #000000;
+}
+
+body.dark-mode .quote-card blockquote::before,
+body.dark-mode .quote-card blockquote::after {
+    color: #a0a0a0;
+}
+
+body.dark-mode .quote-card blockquote p:last-child,
+body.dark-mode .previous-quotes-section .quote-author {
+    color: #000000;
+}
+
+#returnToDailyQuoteBtn {
+    background-color: #33e6e6;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#returnToDailyQuoteBtn:hover {
+    background-color: #2bc4c4;
+}
